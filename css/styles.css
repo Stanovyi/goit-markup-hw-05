@@ -515,9 +515,13 @@ button {
   border-radius: 4px;
   width: 264px;
   height: 40px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
   outline: none;
   background-color: transparent;
   color: var(--white);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .footer-form-input::placeholder {
@@ -536,7 +540,7 @@ button {
   cursor: pointer;
   border: 0;
   border-radius: 4px;
-  width: 165px;
+  min-width: 165px;
   background-color: var(--iris);
   font-weight: 500;
   line-height: 150%;
