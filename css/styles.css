@@ -748,6 +748,12 @@ button {
   margin-bottom: 24px;
 }
 
+.form-checkbox {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+}
+
 .form-text-checkbox {
   display: inline-flex;
   justify-content: center;
