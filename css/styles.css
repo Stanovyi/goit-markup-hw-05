@@ -536,7 +536,6 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
   cursor: pointer;
   border: 0;
   border-radius: 4px;
@@ -550,6 +549,7 @@ button {
 }
 
 .footer-button-image {
+  margin-left: 16px;
   fill: var(--white);
 }
 
